@@ -112,6 +112,7 @@ const CommentOnPic = (props) => {
       }
       editor.canvas.renderAll();
     }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [comment]);
 
   return (
